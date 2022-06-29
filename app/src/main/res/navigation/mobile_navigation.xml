@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_profil">
+
+    <fragment
+        android:id="@+id/navigation_profil"
+        android:name="com.argya.tugas_sensor_10119035.ui.profile.ProfileFragment"
+        android:label="Profil"
+        tools:layout="@layout/fragment_profil" />
+
+    <fragment
+        android:id="@+id/navigation_makanan"
+        android:name="com.argya.tugas_sensor_10119035.ui.makanan.MakananFragment"
+        android:label="Restoran"
+        tools:layout="@layout/fragment_makanan" />
+
+    <fragment
+        android:id="@+id/navigation_my_location"
+        android:name="com.argya.tugas_sensor_10119035.ui.location.MyLocationFragment"
+        android:label="My Location"
+        tools:layout="@layout/fragment_my_location" />
+
+    <fragment
+        android:id="@+id/navigation_about"
+        android:name="com.argya.tugas_sensor_10119035.ui.about.AboutFragment"
+        android:label="About"
+        tools:layout="@layout/fragment_about" />
+</navigation>
